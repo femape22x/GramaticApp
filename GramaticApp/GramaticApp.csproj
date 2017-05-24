@@ -94,10 +94,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\bootstrap-theme.min.css" />
+    <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\Styles.css" />
+    <Content Include="Images\favicon.png" />
+    <Content Include="Js\bootstrap.min.js" />
+    <Content Include="Js\docs.min.js" />
+    <Content Include="Js\jquery.min.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="MasterPage\GramaticApp.Master" />
+    <Content Include="Fonts\Ubuntu-B.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -107,11 +116,42 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Pages\GramaticApp.aspx" />
+    <Content Include="Pages\InicioPage.aspx" />
+    <Content Include="Pages\IntegrantesPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\GramaticApp.Master.cs">
+      <DependentUpon>GramaticApp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\GramaticApp.Master.designer.cs">
+      <DependentUpon>GramaticApp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GramaticApp.aspx.cs">
+      <DependentUpon>GramaticApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\GramaticApp.aspx.designer.cs">
+      <DependentUpon>GramaticApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InicioPage.aspx.cs">
+      <DependentUpon>InicioPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InicioPage.aspx.designer.cs">
+      <DependentUpon>InicioPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\IntegrantesPage.aspx.cs">
+      <DependentUpon>IntegrantesPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\IntegrantesPage.aspx.designer.cs">
+      <DependentUpon>IntegrantesPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
