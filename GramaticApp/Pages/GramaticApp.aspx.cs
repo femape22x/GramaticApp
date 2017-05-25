@@ -11,6 +11,24 @@ namespace GramaticApp.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            txtCodigo.Attributes.Add("placeholder", "Ingresar código...");
+            lblResultado.Text = "Resultado...";
+        }
+
+        protected void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtCodigo.Text = String.Empty;
+            txtCodigo.Attributes.Add("placeholder", "Ingresar código...");
+            lblResultado.Text = "Resultado...";
+        }
+
+        protected void btnCompilar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnVisualizar_Click(object sender, EventArgs e)
+        {
 
         }
     }

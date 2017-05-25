@@ -30,3 +30,4 @@ C:\Users\F3L1X\Documents\Visual Studio 2015\Projects\GramaticApp\GramaticApp\bin
 C:\Users\F3L1X\Documents\Visual Studio 2015\Projects\GramaticApp\GramaticApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\F3L1X\Documents\Visual Studio 2015\Projects\GramaticApp\GramaticApp\obj\Debug\GramaticApp.dll
 C:\Users\F3L1X\Documents\Visual Studio 2015\Projects\GramaticApp\GramaticApp\obj\Debug\GramaticApp.pdb
+C:\Users\F3L1X\Documents\Visual Studio 2015\Projects\GramaticApp\GramaticApp\obj\Debug\GramaticApp.csprojResolveAssemblyReference.cache
